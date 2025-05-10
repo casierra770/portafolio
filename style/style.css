@@ -1,0 +1,354 @@
+body{
+    font-family: poppins, sans-serif;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px ;
+    border: 1px solid rgb(53, 51, 51);
+    border-radius: 9px;
+    box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.6);
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(173, 168, 168);
+
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+    position: left;
+    margin-left: 20px;
+    
+}
+
+img{
+    width: 330px;
+    height: 350px;
+    margin: 10px;   
+}
+
+.link:hover{
+    color: white;
+    padding-bottom: 12px;
+    padding-right: 7px;
+    transition: 1s;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:initial
+}
+
+section{
+    margin-top: 5rem;
+}
+
+h1{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;;
+}
+
+li{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+span{
+    margin-right: 580px;
+    color: white;
+}
+
+
+#text_animation {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;                    
+    color: #00ff88;                    
+    white-space: nowrap;                
+    overflow: hidden;                  
+    border-right: 2px solid #00ff88;
+    animation: blinkCursor 0.8s step-end infinite;
+  }
+  
+  @keyframes blinkCursor {
+    0%, 100% {
+      border-color: #00ff88;
+    }
+    50% {
+      border-color: transparent;
+    }
+  }
+    
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10rem;
+    margin-bottom: 16rem
+}
+
+.social_media{
+    margin-top: -6rem;
+
+}
+
+.social_media li:hover{
+    background-color: #00ff88;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.social_media ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social_media img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.title{
+    min-width: 23ch; 
+    max-width: 600px;
+}
+
+.info{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h1{
+    border-bottom: 5px solid purple;
+    border-radius: 5px;
+}
+
+.info h2{
+    border-bottom: 5px solid purple;
+    border-radius: 5px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(182, 180, 180);
+}
+
+.about_me{
+    display: flex;
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.info a{
+    color: blue;
+}
+
+
+.skills h2{
+    border-bottom: 5px solid purple;
+    border-radius: 5px;
+}
+
+.skills li{
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(182, 180, 180);
+}
+
+.skills li img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.html:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.css:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.js:hover{
+    background-color: rgb(255, 255, 0);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.React:hover{
+    background-color: rgb(0, 255, 0);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.node_js:hover{
+    background-color: rgb(0, 255, 255);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.Git:hover{
+    background-color: rgb(255, 0, 255);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+.GitHub:hover{
+    background-color: rgb(255, 127, 0);
+    color: white;
+    transition: 0,5s;
+    transform: scale(1.1);
+    padding: 7px;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3b7dd8;
+  }
+  
+  .site-footer {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .site-footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .site-footer p {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  
+  .site-footer .social-links a {
+    color: #f1f1f1;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .site-footer .social-links a:hover {
+    color: #4a90e2;
+  }
+  
