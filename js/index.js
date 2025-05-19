@@ -1,4 +1,4 @@
-const nameText = 'HELLO! I AM DANIEL VILLADA';
+const nameText = 'HELLO! I’M CARLOS CASIERRA';
 const nameTextElement = document.getElementById('text_animation');
 let i = 0;
 
