@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portafolio daniel dev</title>
+  <title>portafolio carlos dev</title>
   <link rel="stylesheet" href="style/style.css">
   <!-- AOS CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
@@ -13,39 +13,37 @@
     <nav>
       <ul>
         <li><img src="/images/Desarrollador web con laptop JS.png" alt="logo daniel"><span>CARLOS CASIERRA</span></li>
-        <li class="link">HOME</li>
+        <li class="link"><a href="#projects">PROYECT</a></li>
         <li class="link"><a href="#about">ABOUT</a></li>
         <li class="link"><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
 
-    <section class="profile">
+    <main class="profile">
       <section class="title">
         <h1 id="text_animation"></h1>
-        <h2>Web Designer, IT support</h2>
-        <p>Hi, my name is Daniel Villada. I have been working with CMS like WordPress for a little over a year now, I use tools like Figma, and I am currently working for a US company called Lifespikes. I like to learn, and share knowledge as I learn.</p>
+        <h2>Web Designer</h2>
+        <p>I am currently undergoing training in web development, focusing on strengthening my skills in technologies such as HTML, CSS and JavaScript.</p>
       </section>
 
-      <div class="social_media">
+      <aside class="social_media">
         <ul>
-          <li><a href=""><img src="/images/github.svg" alt="GitHub icon"></a></li>
-          <li><a href=""><img src="/images/linkerd.svg" alt="LinkedIn icon"></a></li>
-          <li><a href=""><img src="/images/youtube.svg" alt="YouTube icon"></a></li>
+          <li><a href="https://github.com/casierra770"><img src="/images/github.svg" alt="GitHub icon"></a></li>
+          <li><a href="https://www.linkedin.com/in/carlos-casierra-9565a7362/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3BvWrkXR%2B5R0yffYsomSmYqA%3D%3D"><img src="/images/linkerd.svg" alt="LinkedIn icon"></a></li>
+          <li><a href="https://wa.me/573135651288?text=Hola%2C%20estoy%20interesado%20en%20tu%20trabajo%20como%20desarrollador"><img src="/images/whatsapp.svg" alt="whatsapp icon"></a></li>
         </ul>
-      </div>
-    </section>
+      </aside>
+    </main>
   </header>
 
   <section class="about_me" id="about">
-    <div class="info" data-aos="fade-right">
+    <section class="info" data-aos="fade-right">
       <h1>ABOUT ME</h1>
-      <p>I'm a front-end web developer, dedicated to building and optimizing the interface of websites and web applications, adding direct value to the final product. In the Projects section, you can see some of the work I've done. I'm also passionate about sharing what I've learned in the world of web development, with the goal of supporting other developers on their journey. I'm active on LinkedIn and Instagram, where I publish useful content about programming and technology.</p>
+      <p>I'm a front-end developer focused on creating and optimizing user interfaces. In the Projects section, you'll find some of my work implementing technologies such as HTML, CSS, and JavaScript.</p>
 
       <h2>EXPERIENCE</h2>
-      <p>I have developed several personal projects through the Frontend Mentor platform, where I have replicated real interfaces and design challenges focused on practicing front-end skills. These projects have allowed me to strengthen my knowledge of HTML, CSS, and JavaScript, applying good layout practices, responsive design, and DOM management.
-
-    During each project, I have used Git for version control and GitHub as a repository to document and share my work, which has also allowed me to improve my skills working with collaborative development tools..</p>
-    </div>
+      <p>I've developed personal projects at Frontend Mentor, replicating real-world interfaces to practice and improve my HTML, CSS, and JavaScript skills. I apply best practices in responsive design, layout, and DOM usage, using Git and GitHub for version control and collaboration.</p>
+    </section>
 
     <div class="skills" data-aos="fade-left">
       <h2>SKILLS</h2>
@@ -59,55 +57,64 @@
       </ul>
     </div>
   </section>
-  <section class="projects">
+  <section class="projects" id="projects">
     <h1>PROJECTS</h1>
-    <div class="project" data-aos="fade-up">
+    <article class="project" data-aos="fade-up">
       <img src="/images/WhatsApp Image 2025-05-18 at 8.32.06 PM.jpeg" alt="Project preview">
       <div class="project-info">
         <h2>contact-from-proyect </h2>
         <p>Modern landing page for Fylo, a cloud storage service. It features a minimalist design, clean illustrations, and clear sections highlighting features, subscriptions, and remote collaboration. Ideal for promoting a SaaS service.</p>
         <a href="https://github.com/casierra770/contact-from-proyect" class="btn">View Project GitHub</a>
       </div>
-    </div>
+    </article>
 
-    <div class="project" data-aos="fade-up">
+    <article class="project" data-aos="fade-up">
       <img src="/images/WhatsApp Image 2025-05-18 at 9.07.44 PM.jpeg" alt="Project preview">
       <div class="project-info">
         <h2>fylo-landing-page</h2>
         <p>Clean and functional contact form with basic fields, query type selection, and consent. Ideal for integrating into corporate websites or SaaS applications.</p>
         <a href="https://github.com/casierra770/fylo-landing-page" class="btn">View Project GitHub</a>
       </div>
-    </div>
+    </article>
+
+    <article class="project" data-aos="fade-up">
+      <img src="/images/WhatsApp Image 2025-05-30 at 11.50.02 PM (1).jpeg" alt="Project preview">
+      <div class="project-info">
+        <h2>calculator-js</h2>
+        <p>This project is a functional calculator created with HTML, CSS, and JavaScript. It allows you to perform basic mathematical operations such as addition, subtraction, multiplication, and division. The interface is designed in a simple and modern way, with interactive buttons and a responsive design that adapts to different devices. It was excellent practice for reinforcing DOM manipulation and event handling in JavaScript..</p>
+        <a href="https://github.com/casierra770/calculator-js" class="btn">View Project GitHub</a>
+      </div>
+    </article>
 
   </section>
 
   <form id="contact" data-aos="fade-up">
-    <div>
+    <fieldset>
       <label for="name">Nombre:</label>
       <input type="text" id="name" name="name" required>
-    </div>
+    </fieldset>
 
-    <div>
+    <fieldset>
       <label for="email">Correo electrónico:</label>
       <input type="email" id="email" name="email" required>
-    </div>
+    </fieldset>
 
-    <div>
+    <fieldset>
       <label for="phone">Número de contacto:</label>
       <input type="tel" id="phone" name="phone" required>
-    </div>
+    </fieldset>
 
-    <div>
+    <fieldset>
       <label for="message">Mensaje:</label>
       <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
+    </fieldset>
 
     <button type="submit">Enviar</button>
   </form>
 
   <footer class="site-footer">
     <div class="footer-content">
-      <p>&copy; 2025 TuNombre. Todos los derechos reservados.</p>
+      <p>&copy; 2025 casierra770. Todos los derechos reservados.</p>
       <div class="social-links">
         <a href="https://github.com/casierra770" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/carlos-casierra-9565a7362/" target="_blank">LinkedIn</a>

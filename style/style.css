@@ -115,7 +115,7 @@ span{
     justify-content: space-between;
     flex-direction: column;
     gap: 10rem;
-    margin-bottom: 16rem
+    margin-bottom: 9rem
 }
 
 .social_media{
@@ -380,6 +380,10 @@ form {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  fieldset{
+    border: none;
   }
   
   form div {
